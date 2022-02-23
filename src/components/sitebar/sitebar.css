@@ -1,0 +1,39 @@
+.sitebar{
+    flex: 1;
+    height:  calc(100vh - 60px);
+    position: sticky;
+    top: 50px;
+    background-color: rgb(247, 247, 255);
+}
+.sitebarWraper{
+    padding: 20px 40px;
+    color: rgb(80, 80, 80);
+
+}
+.sitebarMenu{
+    margin-bottom: 10px;
+}
+.sitebarTitle{
+    font-size: 18px;
+    color: rgb(158, 157, 157);
+}
+.sitebarList{
+    list-style: none;
+    padding: 5px;
+}
+.listItem, .listItem a{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.listItem.active, .listItem:hover{
+    background-color: rgb(202, 191, 255);
+}
+.sitebarIcons{
+    margin-right: 5px;
+}
+.listItem a{
+    width: 100%;
+}

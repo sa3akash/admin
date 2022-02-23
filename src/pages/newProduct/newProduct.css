@@ -1,0 +1,90 @@
+.newProduct{
+    flex: 4;
+    margin: 20px;
+}
+.productTitle{
+    margin-bottom: 20px;
+}
+.productTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.addPruductForm{
+    display: flex;
+    flex-direction: column;
+}
+.addProductFormLeft{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.addProductFormLeft > label{
+    margin-bottom: 10px;
+    color: gray;
+    font-size: 18px;
+}
+.addProductFormLeft > input{
+    margin-bottom: 10px;
+    font-size: 20px;
+    border: 1px solid gray;
+    padding: 15px 20px;
+   
+}
+.addProductFormLeft > select{
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: gray;
+}
+.addProductFormLeft > select > option{
+    font-size: 20px;
+}
+.addProductUpload{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.addProductUploadImag{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.addProductUploadButton{
+    cursor: pointer;
+}
+.addProductFormRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+
+}
+
+.addProductButtonUpdate{
+    border: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    font-size: 18px;
+    transition: all 0.3s;
+    font-weight: 600;
+    margin-top: 35px;
+    width: 100%;
+}
+.addProductButtonUpdate:focus {
+    font-size: 16px;
+}
+.addProductButtonUpdate:hover {
+    box-shadow: 0px 12px 27px -9px rgb(0 0 0 / 30%);
+}
+
+
+

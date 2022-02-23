@@ -1,0 +1,33 @@
+.productList{
+    flex: 4;
+    margin: 20px;
+    padding: 20px;
+}
+.productImag{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.productEditButton{
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+    padding: 5px;
+    margin-right: 20px;
+    background-color: rgb(213, 255, 213);
+}
+.productEditButtonIcon{
+    color: green;
+}
+.productDeleteButton{
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+    padding: 5px;
+    background-color: rgb(255, 191, 191);
+}
+.productDeleteButtonIcon{
+    color: red;
+}
